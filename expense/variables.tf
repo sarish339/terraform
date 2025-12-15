@@ -11,3 +11,11 @@ variable "common_tags"{
         Terraform = "true"
     }
 }
+
+variable "zone_id"{
+    default = "Z0478976UB6Z2B52LUKW"
+}
+
+variable "domain_name"{
+    default = "sarish.store"
+}
